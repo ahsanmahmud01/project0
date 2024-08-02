@@ -1,0 +1,41 @@
+
+body{
+    background: #010101;
+}
+
+/* header */
+.headern{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 10px;
+background: grey;
+box-shadow: 0 5px 15px #3d879e;
+border-radius: 10px;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}.navbar li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+.navbar li a{
+text-decoration: none;
+font-size: 16px;
+font-weight: 550;
+color: #010101;
+transition: .3s ease;
+
+}
+.navbar li a:hover{
+    color: aquamarine;
+}
+.navbar li a.active{
+    color: aquamarine;
+}
